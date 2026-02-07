@@ -1,1 +1,11 @@
-
+{
+  "manifest_version": 3,
+  "name": "My Basic Shell",
+  "version": "1.0",
+  "description": "Your own personal cart",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"]
+}
